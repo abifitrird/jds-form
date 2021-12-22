@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.form-group {
+  width: 100%;
+  column-gap: 8px;
+}
+
+.form-field {
+  border-radius: 12px;
+  outline: none;
+  padding: 8px;
 }
